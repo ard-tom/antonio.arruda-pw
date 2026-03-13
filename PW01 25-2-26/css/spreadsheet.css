@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: none;
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #ccc;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input:focus {
+    box-shadow: 0 0 10px #00ffcc;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 5px 0 0;
+    transition: 0.3s;
+}
+
+button[type="submit"] {
+    background-color: #00c853;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #00e676;
+}
+
+button[type="reset"] {
+    background-color: #ff5252;
+    color: white;
+}
+
+button[type="reset"]:hover {
+    background-color: #ff867f;
+}
+
+button[type="button"] {
+    background-color: #2979ff;
+    color: white;
+}
+
+button[type="button"]:hover {
+    background-color: #5393ff;
+}
